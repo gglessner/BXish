@@ -1,0 +1,82 @@
+# BXish -- B/X Fantasy RPG AI Skill
+
+**Author:** Garland Glessner (gglessner@gmail.com)
+
+A scaled-down, AI-optimized tabletop RPG ruleset designed to facilitate classic B/X fantasy play through an AI agent skill. The rules have been distilled into compact, machine-readable markdown files that fit within LLM context windows while preserving the full mechanical depth needed for authentic old-school dungeon crawling.
+
+## What This Is
+
+BXish is a Cursor agent skill that turns an AI into a competent, rules-faithful Dungeon Master for B/X-style fantasy RPGs. It handles character creation, combat, spellcasting, exploration, treasure, monsters, and all the procedural systems that make old-school play tick -- wandering monsters, reaction rolls, morale checks, encumbrance, torch tracking, the works.
+
+The skill is split across 33 reference files organized by topic, loaded on demand during play so the DM always has the right rules at hand without blowing out the context window.
+
+## Repository Structure
+
+```
+BXish/
+  .cursor/skills/ose-dungeon-master/   # The AI Dungeon Master skill
+    SKILL.md                           # Skill entry point and core DM procedures
+    01-core-rules.md                   # Fundamental mechanics
+    02-character-creation.md           # 13-step character creation process
+    03-character-classes.md            # All 7 classes with full progression tables
+    04-advancement-wealth.md           # XP, leveling, titles
+    05-equipment.md                    # Weapons, armor, gear, costs
+    06-vehicles-mounts.md              # Transport and mounts
+    07-hired-help.md                   # Retainers, specialists, mercenaries
+    08-strongholds.md                  # Domain-level play
+    09-magic-system.md                 # Spellcasting rules and mechanics
+    10-cleric-spells.md                # All cleric spells
+    11-mu-spells-1to3.md               # Magic-user spells levels 1-3
+    12-mu-spells-4to6.md               # Magic-user spells levels 4-6
+    13-adventuring.md                  # Party organization, time, encumbrance, hazards
+    14-exploration.md                  # Dungeon, wilderness, and waterborne procedures
+    15-encounters-evasion.md           # Encounter distance, surprise, reactions, evasion
+    16-combat.md                       # Full combat sequence and special cases
+    17-running-adventures.md           # DM guidance for sessions
+    18-adventure-design.md             # Dungeon and wilderness design procedures
+    19-monster-rules.md                # Monster stat block format and special abilities
+    20-monsters-ab.md                  # Monsters A-B
+    21-monsters-c.md                   # Monsters C
+    22-monsters-d-ge.md                # Monsters D-Ge
+    23-monsters-gi-ly.md               # Monsters Gi-Ly
+    24-monsters-m-o.md                 # Monsters M-O
+    25-monsters-p-s.md                 # Monsters P-S
+    26-monsters-t-z.md                 # Monsters T-Z
+    27-encounter-tables.md             # Wandering monster tables by level and terrain
+    28-treasure.md                     # Treasure types and generation
+    29-magic-items-armor-misc.md       # Magic armor, miscellaneous items
+    30-magic-items-potions-rings.md    # Potions and rings
+    31-magic-items-rods-scrolls.md     # Rods, staves, wands, scrolls
+    32-magic-items-swords-weapons.md   # Magic swords and weapons
+  adventure-session-1.md               # Example session transcript
+  LICENSE                              # GNU General Public License v3
+  README.md                            # This file
+```
+
+## Usage
+
+### As a Cursor Agent Skill
+
+The skill is installed in `.cursor/skills/bx-dungeon-master/`. When you ask the AI to run a B/X game or act as a Dungeon Master, it reads `SKILL.md` and loads reference files on demand during play.
+
+Just say something like:
+- *"Use your B/X Dungeon Master skill"*
+- *"Roll me up a character"*
+- *"Let's play some classic B/X"*
+
+The AI will handle character creation, dungeon generation, combat, treasure, and all the bookkeeping.
+
+## Design Principles
+
+- **Mechanically complete.** Every table, formula, and procedure needed to run a session is present. Nothing is summarized away if it affects play.
+- **Aggressively compact.** Flavor text, examples, and redundant prose are stripped. What remains is the skeleton of the rules in the most token-efficient format possible.
+- **Progressive disclosure.** The skill entry point (`SKILL.md`) contains core DM procedures. Detailed reference files are loaded only when needed, keeping the active context lean.
+- **Old-school faithful.** XP from treasure, not kills. Descending AC with ascending brackets. THAC0. Morale. Reaction rolls. No fudging, no hand-waving, no modern concessions.
+
+## Example Play
+
+See `adventure-session-1.md` for a full session transcript: *The Tomb of Valdros the Pale*, featuring a level 3 party (Elf, Thief, Cleric) exploring a barrow tomb, spiking ghouls behind a door, fighting a carcass crawler, and hauling 3,100gp of treasure back to the surface.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE) for details.
