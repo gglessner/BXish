@@ -75,7 +75,10 @@ The AI will handle character creation, dungeon generation, combat, treasure, and
 
 ## Example Play
 
-See `adventure-session-1.md` for a full session transcript: *The Tomb of Valdros the Pale*, featuring a level 3 party (Elf, Thief, Cleric) exploring a barrow tomb, spiking ghouls behind a door, fighting a carcass crawler, and hauling 3,100gp of treasure back to the surface.
+Session transcripts from *The Tomb of Valdros the Pale*, featuring a level 3 party (Elf, Thief, Cleric) clearing a barrow tomb outside the village of Harrow's End:
+
+- `adventure-session-1.md` -- First delve. Spiking ghouls behind a door, fighting a carcass crawler, hauling 3,100gp back to the surface.
+- `adventure-session-2.md` -- Return trip. Turning undead, looting the sarcophagi, and getting out clean with another 2,500gp.
 
 ## License
 
