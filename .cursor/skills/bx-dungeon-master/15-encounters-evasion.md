@@ -1,6 +1,10 @@
 # Encounters & Evasion
 ## Surprise
-Each unaware side 1d6: 1-2=surprised. Carrying light=can't surprise. Surprised side: other gets 1 free round.
+Each unaware side 1d6: 1-2=surprised. Carrying light=can't surprise. Surprised side: other gets 1 free round (move+attack). After that, normal encounter flow.
+**Use surprise for position, not just damage.** Best round-1 moves: control a doorway, set spears, create missile lanes, back out and close/spike the door, grab treasure and flee, or get the torchbearer behind the line. Position is power.
+**Distance matters:** Surprise at 10' in a corridor = immediate contact. Surprise at 60' in a room = window of choices (formation, retreat, negotiation).
+**Surprise doesn't mean combat.** If intelligent creatures are surprised and nobody attacks, roll reaction. Surprise controls the first words, not just the first swing -- bluff, parley, threaten, demand tribute from a strong position.
+**Surprise triggers morale.** First-round shock (a monster drops, the line breaks, the leader is hit) often breaks morale early. Surprise → hit hard → morale check → fight ends fast.
 ## Encounter Distance
 Dungeon 2d6×10ft. Wilderness/water 4d6×10yd (1d4×10 if surprised).
 ## Initiative
