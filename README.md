@@ -1,7 +1,7 @@
 # BXish -- B/X Fantasy RPG AI Skill
 
 **Author:** Garland Glessner (gglessner@gmail.com)
-**Version:** 2.4.0
+**Version:** 2.5.1
 
 A scaled-down, AI-optimized tabletop RPG ruleset designed to facilitate classic B/X fantasy play through an AI agent skill. The rules have been distilled into compact, machine-readable markdown files that fit within LLM context windows while preserving the full mechanical depth needed for authentic old-school dungeon crawling.
 
@@ -66,6 +66,7 @@ BXish/
   adventure-session-3.md               # Session 3: Valdros the Wight destroyed, magic sword, 3,660gp
   adventure-session-4.md               # Session 4: Ghouls eliminated, Edric found, tomb cleared
   adventure-session-5.md               # Session 5: Road to Thornwall, Kael's escort, quarry investigation
+  adventure-session-6.md               # Session 6: Battle of Greystone Quarry, scarecrow tactics, lair cleared
   CHANGELOG.md                         # Version history and skill improvements
   LICENSE                              # GNU General Public License v3
   README.md                            # This file
@@ -100,6 +101,7 @@ Session transcripts from *The Tomb of Valdros the Pale*, featuring a level 3 par
 - `adventure-session-3.md` -- Hiring a retainer, confronting Valdros the Wight, finding a magic sword, two level-ups. 3,660gp.
 - `adventure-session-4.md` -- Burning the ghouls, finding the missing woodcutters, clearing the tomb, donating 3,000sp to the village.
 - `adventure-session-5.md` -- Gold logistics, hiring Kael's escort, Thornwall bank and shopping, quarry intelligence gathering, arrival at Greystone Quarry.
+- `adventure-session-6.md` -- Oil trap ambush, recruiting Rodrik, Durnin's map, the scarecrow assault, clearing the troglodyte lair, refusing Pell's bounty.
 
 ## License
 

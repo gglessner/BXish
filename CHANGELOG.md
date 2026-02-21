@@ -2,6 +2,50 @@
 
 All notable changes to the BXish B/X Dungeon Master Skill.
 
+## [2.5.1] -- 2026-02-20
+
+### Changed
+- Player Agency Rule 1 refined with the **Scene-Oddity-Risk** template. Room descriptions now have an explicit three-beat structure: Scene (shape and function), Oddity (one detail that invites interaction), Risk (one danger signal or clock). Replaces the vaguer "2-3 interactable details" with a more memorable and disciplined framework.
+- Added "one detail per question" as an explicit progressive disclosure rule -- never dump information, build the room through conversation.
+- Added "atmosphere is gravy, not the meal; choices are the meal" as a guiding principle against lore/description dumps.
+- Added improv prompts: function, mismatch, consequence -- for generating rooms on the fly without prep.
+- Inspired by Tenkar's Tavern (Erik Tenkar), "The 10-Second Room: Describe It or You're Shoveling Manure", 2026-01-08.
+
+### Fixed
+- Sessions 1-4: Some room descriptions front-loaded too much information before asking "What do you do?" Under Scene-Oddity-Risk, every description is three beats and a handoff -- players get handles to grab, not prose to parse.
+
+## [2.5.0] -- 2026-02-20
+
+### Added
+- `36-hex-crawl-procedures.md`: New "Long-Range Travel" section covering multi-day and multi-week journeys without turning them into montages or meat grinders.
+- **Legs, not hexes:** Break long journeys into stretches with a consistent situation. Each leg gets an index card with four notes: risk level, check frequency, resource drain, and one wrinkle that makes the stretch distinctive.
+- **Daily travel loop:** weather → navigation → trouble check → drain → camp. Fast, repeatable sequence that takes a minute or two once the rhythm is set.
+- **Danger clock:** 4-8 ticks per leg. Ticks when the party pushes pace, gets lost, takes shortcuts, travels conspicuously, or fails to secure camp. When full, something changes the math (not just another random fight).
+- **Camp checks:** Separate nighttime roll, different encounter type from daytime. The wilderness gets its best shot while the party sleeps (scouts, stolen supplies, weather turn, predators).
+- **Trouble checks are usually NOT fights:** Default to situations that force decisions -- patrols wanting papers, washed-out fords, tolls, refugees, guides offering shortcuts, fresh shadowing tracks, visible stormfronts, burned farmsteads.
+- **Push decisions up a level:** On long trips, the meaningful choices are road or cross-country, fast or safe, mounts or save coin, hire help or go lean, resupply or press on.
+- **Campaign clock:** While the party travels, the world moves -- prices shift, borders tighten, factions advance, destinations change, the home base reacts to their absence.
+- **Months-long travel:** Same structure, bigger legs. Summarize quiet stretches, ensure at least one played scene per leg.
+- Wilderness summary in SKILL.md expanded with long-range travel framework, danger clock, camp checks, and campaign clock.
+- Three new "What NOT to Do" entries added to quick reference.
+- Inspired by Tenkar's Tavern (Erik Tenkar), "Stop Handwaving Travel: Run Weeks on the Road Like a Dungeon", 2026-02-08.
+
+### Fixed
+- Session 5: The 2-day trip to Thornwall was handled well with daily encounter checks and atmospheric beats, but a longer journey (e.g., to Kingsbridge at 4+ days) would have benefited from legs, a danger clock, and camp checks. The framework now scales from short trips to month-long expeditions.
+
+## [2.4.1] -- 2026-02-20
+
+### Changed
+- `33-town-procedures.md`: Added "The Home Base Rule" section at the top -- campaign-level structural principle for establishing one anchor town.
+- Home base creates the campaign loop: go out → take risks → come back → recover → spend → level → hear rumors → choose next lead. Without it, sandboxes feel like random wandering.
+- Safe means steady, not immune. No wilderness attrition inside walls, but consequences still reach the party (bribes, spies, rumors, road traps from enemies).
+- Town as scoreboard: the home base physically reflects campaign progress. Party success improves the town; party failures or enemies degrade it.
+- The safety line: one clear boundary between town procedures (inside) and wilderness/dungeon procedures (outside). If everything is equally dangerous, towns become pit stops.
+- Anti-patterns: equivalent interchangeable settlements kill campaign gravity; immune-to-change towns kill emotional investment.
+- Rumor construction framework: prep 6 rumors (2 true, 2 half-true, 2 false). Teaches players to verify information and creates real choices.
+- Town summary in SKILL.md Running the Game expanded with home base concept, town-as-scoreboard, and rumor construction method.
+- Inspired by Tenkar's Tavern (Erik Tenkar), "The One Safe Town Rule (Sandbox Fix You'll Feel Immediately)", 2026-02-19.
+
 ## [2.4.0] -- 2026-02-20
 
 ### Added

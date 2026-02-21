@@ -103,6 +103,95 @@ When run correctly, the hex crawl naturally evolves into larger play:
 
 Don't force story arcs. The world writes them. This is emergent play at its finest.
 
+## Long-Range Travel (Multi-Day / Multi-Week)
+
+Short trips (1-3 days) run fine with the daily beats above. For longer journeys, scale up without turning the table into a spreadsheet.
+
+### Legs, Not Hexes
+Break the journey into **legs** -- stretches where the situation stays basically the same. Each leg gets an index card:
+
+| Note | What It Means |
+|------|--------------|
+| **Risk** | How dangerous is this stretch? (low/medium/high) |
+| **Checks** | How often do you roll for trouble? (1/day, 2/day, 2/day + camp) |
+| **Drain** | What resource pressure applies? (food, water, fatigue, mounts, exposure) |
+| **Wrinkle** | One thing that makes this leg feel different (no law, no shelter, faction territory, weather) |
+
+**Example:** A 3-week trek might be: King's Road (6 days, low risk, 1 check/day, normal drain, wrinkle: tolls and patrols) → Foothills (7 days, medium risk, 2 checks/day, fatigue drain, wrinkle: bandits and bad weather) → Border Marches (8 days, high risk, 2 checks/day + camp checks, water scarce, wrinkle: no law, faction territory, ruins-only shelter).
+
+### Daily Travel Loop
+Fast, repeatable sequence. Takes a minute or two once you know the rhythm:
+
+1. **Weather** -- changes pace, visibility, exhaustion
+2. **Navigation** -- changes time, risk of getting lost
+3. **Trouble check** -- does the trip throw something at the party today?
+4. **Drain** -- apply resource consumption (rations, water, mount condition)
+5. **Camp** -- camp check at night (separate from daytime trouble)
+
+If the day is quiet, summarize and move on. When something hits, drop into the scene and play it out.
+
+### Trouble Checks Are Usually NOT Fights
+Default to situations that force decisions, not combat:
+- Patrol wanting papers or bribes
+- Washed-out ford or collapsed bridge
+- Toll that wasn't there last year
+- Refugees clogging the road
+- Guide offering a shortcut for a price
+- Fresh tracks -- someone is shadowing the party
+- Stormfront visible on the horizon
+- Burned farmstead with survivors hiding
+- Rival group moving faster on the same route
+
+Combat encounters can happen, but the default is: here's a problem, what do you do?
+
+### Camp Checks
+Separate nighttime roll. Different encounter type from daytime. The wilderness gets its best shot while the party sleeps. Results:
+- Something scouts the camp (tracks in the morning)
+- Supplies disturbed or stolen
+- Weather turns overnight (soaked gear, lost time)
+- Noise/movement that forces a decision (investigate or stay put)
+- Actual nighttime encounter (predators, bandits, wandering monsters)
+
+### Danger Clock
+Each leg gets a danger clock (4-8 ticks depending on length and risk). Tick when the party:
+- Pushes pace beyond normal
+- Gets lost and burns extra time
+- Takes obvious shortcuts
+- Travels in a conspicuous manner (loaded carts, torchlight, loud)
+- Fails to secure camp properly
+- Has a trouble check that costs time
+
+**When the clock fills,** don't roll another random encounter. Drop something that **changes the math:** a patrol stops them and demands bribes, raiders shadow them for two days, a storm pins them down and spoils supplies, a mount goes lame and pace collapses, a rival group gets ahead of them, a faction tags them as a problem.
+
+### Push Decisions Up a Level
+On long trips, don't debate every day. The meaningful choices are:
+- Road or cross-country?
+- Fast or safe?
+- Mounts or save coin?
+- Hire help or go lean?
+- Carry more or travel light?
+- Resupply here or press on?
+- Go now or wait for better conditions?
+
+Make these decisions at the start of each leg, then run the loop and let consequences land.
+
+### Campaign Clock
+While the party travels, the world moves. If they're gone for weeks:
+- Prices shift at their home base
+- Borders tighten or open
+- Factions advance (use the two-moves-per-session rule from [42-faction-play.md](42-faction-play.md))
+- Destinations change (the "abandoned" temple isn't abandoned anymore)
+- The home base reacts to their absence (see [33-town-procedures.md](33-town-procedures.md), Home Base Rule)
+
+Long travel matters not because you tracked rations like a fantasy accountant, but because the world didn't pause for the party.
+
+### Months-Long Travel
+Same structure, bigger legs. Two weeks to the next resupply, three weeks along the coast, a month across the badlands. For each leg:
+1. Run a few quick daily loops to represent time passing
+2. Ensure at least **one played scene** per leg where something meaningful happens
+
+If nothing meaningful happens for five days, don't roleplay five days. Summarize, apply drain, check the clock, move on. But when the clock fills or trouble hits, drop into the scene and play it out.
+
 ## Quick Reference: What NOT to Do
 - Don't require clearing every hex
 - Don't describe every mile of travel
@@ -110,3 +199,6 @@ Don't force story arcs. The world writes them. This is emergent play at its fine
 - Don't let travel become a shopping list of terrain descriptions
 - Don't make the hex map a checklist
 - Don't run travel in minutes/hours -- run it in days
+- Don't prep 200 hexes for a long trip -- think in legs
+- Don't make every encounter a fight -- most are situations
+- Don't skip the campaign clock -- the world moves while they travel

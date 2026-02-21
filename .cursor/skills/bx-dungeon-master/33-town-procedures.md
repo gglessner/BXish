@@ -1,5 +1,20 @@
 # Town Procedures
 
+## The Home Base Rule
+One town should be THE anchor for the campaign -- the place the party returns to between expeditions. This creates the campaign loop: go out → take risks → come back → recover → spend → level → hear rumors → choose the next lead. That loop is the engine. Without it, a sandbox feels like random wandering.
+
+**Safe means steady, not immune.** Inside the home base, no wilderness attrition pressure -- no random encounter rolls every hour, no starvation, no getting lost. But safe does NOT mean no thieves, no scams, no factions, no consequences. If the party makes enemies, those enemies lean on the town (bribes, spies, rumors, road traps). If the party clears a nearby ruin, the road gets safer, prices drop, the inn gets busier.
+
+**Town as scoreboard.** The home base should physically reflect the campaign's progress. Party success improves the town. Party failures or enemies degrade it. The players can SEE their impact when they walk through the gate.
+
+**The safety line.** Draw one clear boundary: inside walls = steady rest and town procedures. Outside = wilderness/dungeon game procedures. If everything is equally dangerous all the time, players use towns as pit stops and the campaign feels like a series of errands.
+
+**Anti-patterns to avoid:**
+- Wandering between equivalent settlements (same menu of services, different paint) kills campaign gravity. ONE town is home.
+- Making the home base immune to change kills emotional investment. Players come back to refill torches but not because it's home.
+
+**Rumor construction:** Prep 6 rumors for the home base. 2 true, 2 half-true, 2 false. This gives players real choices and teaches them to verify information. Refresh as leads are followed or time passes.
+
 ## Town Loop (per turn)
 1. Party picks destination or action
 2. Roll contact/reaction (2d6+CHA mod)
